@@ -4,8 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonial Cards</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-query.css">
 </head>
 <body>
-    
+    <main>
+        <article id="testimonial-1">
+            <blockquote>
+                <p>"O Fábio foi essencial no nosso projeto de integração de dados em tempo real. Precisávamos processar milhões de registros de entregas diárias, mas nossa pipeline no Apache Kafka estava travando. Ele não só otimizou o código Spark para reduzir o tempo de processamento pela metade, como ainda sugeriu uma arquitetura mais escalável usando AWS Kinesis. Sem ele, não teríamos batido o prazo de lançamento. O cara é um gênio em streaming de dados!"</p>
+            </blockquote>
+            <figure>
+                <figcaption>
+                    <h2>Romilton Lobato</h2>
+                    <p class="cargo">Engenheiro de Dados</p>
+                </figcaption>
+                <img src="assets/pessoa1.jpg" alt="Pessoa do primeiro depoimento">
+            </figure>
+        </article>
+
+        <article id="testimonial-2">
+            <blockquote>
+                <p>"Quando começamos a ter ataques de credential stuffing na nossa API, quase entramos em crise. O Fábio entrou como um salva-vidas: ele implementou um sistema de autenticação em duas etapas com OAuth 2.0 e ainda criou um script em Python para monitorar padrões suspeitos em tempo real. Além disso, ajudou a migrar nossos logs para o Elasticsearch com criptografia ponta a ponta. Graças a ele, reduzimos as tentativas de fraude em 80% em duas semanas. Mal posso esperar para trabalhar com ele de novo!"</p>
+            </blockquote>
+            <figure>
+                <figcaption>
+                    <h2>Ricardo Almeida</h2>
+                    <p class="cargo">Especialista em Cybersecurity</p>
+                </figcaption>
+                <img src="assets/pessoa2.jpg" alt="Pessoa do segundo depoimento">
+            </figure>
+        </article>
+
+        <article id="testimonial-3">
+            <figure>
+                <img src="assets/pessoa3.jpg" alt="Pessoa do terceiro depoimento">
+            </figure>
+            <ul id="avaliacao">
+                <li>★</li>
+                <li>★</li>
+                <li>★</li>
+                <li>★</li>
+                <li>★</li>
+            </ul>
+            <header>
+                <h2>Laura Mendes</h2>
+                <p class="cargo">Desenvolvedora Front-end</p>
+            </header>
+            <blockquote>
+                <p>
+                    "Eu estava desesperada com a lentidão da nossa interface React. Os usuários reclamavam que o carrinho de compras travava durante picos de acesso. O Fábio analisou o código, identificou memory leaks nos componentes e refatorou tudo usando lazy loading e memoização. De quebra, ele ainda sugeriu uma integração com CDN pra acelerar o carregamento das imagens. Resultado? O desempenho subiu 65%, e o cliente amou! Ele tem uma visão técnica incrível, mesmo sendo back-end de formação."
+                </p>
+            </blockquote>
+        </article>
+        <footer>
+            <label for="contributor-select">Veja a opinião de nossos contribuidores:</label>
+            <select id="contributor-select">
+                <option value="jose-augusto">José Augusto</option>
+                <option value="outra-pessoa">Outra Pessoa</option>
+              </select>
+        </footer>
+    </main>
 </body>
 </html>
