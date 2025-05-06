@@ -1,4 +1,4 @@
-Personagem 1: Camila Costa
+Personagem 1: Romilton Lobato
 Cargo: Engenheira de Dados
 Projeto: Sistema de processamento de dados em tempo real para logística (startup de entregas urbanas)
 
