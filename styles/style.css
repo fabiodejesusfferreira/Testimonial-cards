@@ -1,1 +1,66 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --darkgray: #1e1e1e;
+    --sombra-padrao: 3px 3px 2px rgba(0, 0, 0, 0.326);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: gray url(../assets/planodefundo.jpg) left bottom no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.888);
+    padding: 20px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: var(--sombra-padrao);
+}
+
+article#testimonial-1 > blockquote {
+    color: white;
+    background-color: var(--darkgray);
+    font-size: .8em;
+    word-spacing: 3.5px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: var(--sombra-padrao);
+}
+
+article#testimonial-1 img,
+article#testimonial-2 img,
+article#testimonial-3 img {
+    border-radius: 50%;
+}
+
+img {
+    width: 50%;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+blockquote {
+    text-align: justify;
+}
+
+p.cargo, blockquote {
+    font-family: 'Montserrat', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
