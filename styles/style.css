@@ -95,6 +95,45 @@ article#testimonial-2 figcaption {
   position: absolute;
 }
 
+/* Testimonial 2 */
+
+article#testimonial-3 img {
+  margin: 20px 33.33% 0px;
+}
+
+article#testimonial-3 section {
+  background-color: var(--darkgray);
+  border-radius: 20px;
+  padding: 0px 15px 15px;
+  box-shadow: var(--sombra-padrao);
+}
+
+article#testimonial-3 ul {
+  text-align: center;
+}
+
+article#testimonial-3 li {
+    display: inline-block;
+    color: yellow;
+    font-size: 80px;
+}
+
+article#testimonial-3 header {
+  font-size: 1.6em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+article#testimonial-3 h2, article#testimonial-3 p {
+  color: white;
+}
+
+article#testimonial-3 blockquote {
+  font-size: .9em;
+}
+
+/* Configuração geral */
+
 article#testimonial-1 img,
 article#testimonial-2 img,
 article#testimonial-3 img {
